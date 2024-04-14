@@ -4,15 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Div - Span</title>
+    <link rel="stylesheet" href="style.css">
     <style>
+        #topo {
+            background: rgba(0, 0, 255, 0.299);
+        }
 
+        #conteudo-principal {
+            background: red;
+        }
+
+        .produto {
+            background: gray;
+            margin: 10px;
+        }
+        #rodape {
+            background: rgba(0, 128, 0, 0.349);
+        }
+        #assinatura {
+            background: purple;
+            color: white;
+        }
+        .azul {
+            color: blue;
+        }
     </style>
 </head>
 <body>
     
-    <div>
-        <img src="" alt="">
+    <div id="topo">
+        <img src="imagens/logo-amazon.png" alt="Logo Amazon" width="200px">
+        <ul>
+            <li>Home</li>
+            <li>Proudutos</li>
+            <li>Contatos</li>
+        </ul>
     </div>
+
+    <div id="conteudo-principal">
+
+        <div class="produto">
+            Produto 01
+        </div>
+        <div class="produto">
+            Produto 02
+        </div>
+        <div class="produto">
+            Produto 03
+        </div>
+
+    </div>
+
+    <div id="rodape">
+
+        Todos os <span class="azul">direitos</span> reservados
+
+    </div>
+
+    <br>
+
+    <span id="assinatura">
+        David
+    </span>
+    <span>
+        Monteiro
+    </span>
 
 </body>
 </html>
