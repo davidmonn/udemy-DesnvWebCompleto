@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+#noticia {
+    background: rgba(0, 0, 255, 0.26);
+    padding: 10px;
+}
+
+h2 {
+    margin: 0px;
+}
