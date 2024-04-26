@@ -6,15 +6,18 @@
     width: 150px;
     height: 150px;
     margin: 15px;
-    float: right;
+    float: left;
 }
 
+.clear {
+    clear: left;
 }
+
 /*.conteudo1 {
     background: red;
     border: 1px solid gray;
     width: 150px;
     height: 150px;
-    float: right;
+    float: left;
     margin: 15px;
 }*/
