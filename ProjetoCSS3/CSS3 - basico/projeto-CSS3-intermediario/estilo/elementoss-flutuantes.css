@@ -5,7 +5,8 @@ body {
 }
 
 #principal {
-    border: 1px solid red;
+    border: 5px solid red;
+    background: green;
 }
 
 .conteudo {
