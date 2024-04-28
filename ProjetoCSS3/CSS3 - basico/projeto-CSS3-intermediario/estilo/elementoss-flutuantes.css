@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+body {
+    width: 500px;
+}
+
+#principal {
+    border: 1px solid red;
+}
+
 .conteudo {
     background: blue;
     border: 1px solid gray;
