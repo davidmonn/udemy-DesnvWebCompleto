@@ -1,11 +1,17 @@
 @charset "UTF-8";
 
-#noticias {
+body {
+    background: #f4f4f4;
+}
+
+#principal {
     width: 920px;
-    border: 1px solid red;
+    margin: auto;
+    /*border: 1px solid red;*/
 }
 
 .noticia {
+    border: 1px solid;
     background: #e5e5e5;
     padding: 5px;
     width: 280px;
@@ -13,6 +19,14 @@
     float: left;
 }
 
-.clear {
+.imagem-galeria {
+    background: white;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
+
+.clear{
     clear: both;
 }
