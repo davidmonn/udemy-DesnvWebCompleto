@@ -24,6 +24,13 @@ body {
     position: relative;
 }
 
+.menu > a:hover {
+    background: white;
+    color: #F4C470;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 #logo > h1 {
     font-size: 3em;
     padding-top: 30px;
@@ -57,8 +64,18 @@ body {
     box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.212);
 }
 
+#conteudo > div > p {
+    width: 650px;
+}
+
+#conteudo > div > a {
+    color: #FFC847;
+    text-decoration: none;
+}
+
 .recentes, .categorias > h2 {
     color: #53525D;
+    background: #DDDADD;
 }
 
 .recentes {
@@ -80,11 +97,33 @@ body {
 }
 
 .recentes > a {
-    color: #FFE4A4;
+    color: #FFC847;
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 
 .categorias {
-
+    background: #FFFFFF;
+    width: 300px;
+    position: relative;
+    left: 750px;
+    bottom: 460px;
+    padding: 15px;
 }
+
+.categorias > h2 {
+    padding: 10px;
+}
+
+.categorias > p {
+    padding: 10px;
+}
+
+.cat > a {
+    color: #FFC847;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
