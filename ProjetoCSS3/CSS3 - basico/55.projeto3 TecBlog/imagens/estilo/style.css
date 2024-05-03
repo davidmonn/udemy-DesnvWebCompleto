@@ -26,9 +26,35 @@ body {
 }
 
 #principal {
-    background: white;
     width: 920px;
     margin: 0 auto;
+}
+
+#postagens, #lateral {
+    background: orange;
+}
+
+#postagens {
+    width: 660px;
+    float: left;
+}
+
+#lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
 }
 
 /*
