@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/****************************
+Barra de Navegação vertical */
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    padding: 0px;
+}
+
+li {
+    padding: 10px 20px;
+    /*border: 1px solid red;*/
+    background: url('../imagens/seta.png') no-repeat left center;
+}
