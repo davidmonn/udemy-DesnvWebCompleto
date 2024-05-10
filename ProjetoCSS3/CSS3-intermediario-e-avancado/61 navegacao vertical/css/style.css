@@ -17,8 +17,14 @@ li {
 
 /*************************************/
 
-body {
-    
+/*Dessa maneira agora conseguimos adicionar um background:position;*/
+
+#home #navegacao .home a, 
+#sobre #navegacao .sobre a, 
+#servicos #navegacao .servicos a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
 }
 
 ul {
