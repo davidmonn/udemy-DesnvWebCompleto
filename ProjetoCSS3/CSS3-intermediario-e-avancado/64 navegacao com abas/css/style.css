@@ -30,11 +30,11 @@ ul a:hover {
     color: #894a1f;
 }
 
-ul #home {
+ul #home, ul  #sobre, ul #servicos, ul #noticias, ul #contato {
     background: url('../imagens/imagens/aba-direita-atual.png') no-repeat top right;
 }
 
-ul #home a {
+ul #home a, ul #sobre a, ul #servicos a, ul #noticias a, ul #contato a {
     background: url('../imagens/imagens/aba-esquerda-atual.png') no-repeat top left;
 }
 
