@@ -6,9 +6,11 @@ body {
 }
 
 #container {
-    width: 720px;
+    width: 85%; /*720px*/
     margin: 0px auto;
     background: #fff;
+    min-width: 720px;
+    max-width: 1280px;
 }
 
 #marca {
@@ -19,25 +21,25 @@ body {
 }
 
 #conteudo {
-    width: 520px;
+    width: 75%; /*520px --> 74,28*/
     float: right;
     /*border: 1px solid black;*/
 }
 
 #cont-principal {
-    width: 320px;
+    width: 60%; /*320 px* --> 64*/
     float: left;
 }
 
 #cont-secundario {
-    width: 180px;
+    width: 34%; /*180px --> 36*/
     float: right;
     background: #d1d1d1;
     padding: 10px;
 }
 
 #navegacao {
-    width: 180px;
+    width: 180px; /*180px*/
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
