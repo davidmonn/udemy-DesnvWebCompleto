@@ -6,9 +6,9 @@ body {
 }
 
 #container {
-    width: 85%; /*720px*/
+    width: 960px; /*720px*/
     margin: 0px auto;
-    background: #fff;
+    background: #fff url('../imagens/coluna.png') repeat-y left top;
     min-width: 720px;
     max-width: 1280px;
 }
@@ -52,6 +52,12 @@ img.imagem {
     float: right;
     background: #d1d1d1;
     padding: 10px;
+    background: url(../imagens/coluna.png) repeat-y center right;
+}
+
+#cont-secundario p {
+    width: 80%;
+    padding: 5px;
 }
 
 #navegacao {
@@ -59,7 +65,7 @@ img.imagem {
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #d1d1d1;
+    /*background: #d1d1d1;*/
     /*border: 1px solid black;*/
 }
 
