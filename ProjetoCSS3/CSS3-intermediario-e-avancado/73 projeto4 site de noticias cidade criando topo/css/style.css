@@ -87,11 +87,33 @@ body.fotos #navegacao a#fotos,
     float: ;
 }
 
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0px 0px 20px -750px;
+}
+
 #primario {
+    width: 270px;
+    float: left;
+    margin: 0px 0px 20px 195px;
+    background: #blue;
+}
+
+#tres-colunas #primario {
     width: 270px;
     background: blue;
     float: left;
     margin: 0px 0px 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0px 0px 20px 0px;
 }
 
 #secundario {
@@ -101,16 +123,29 @@ body.fotos #navegacao a#fotos,
     margin: 0px 0px 20px 15px;
 }
 
-#lateral {
-    width: 180px;
-    background: yellow;
-    float: left;
-    margin: 0px 0px 20px -750px;
-}
-
 #container-rodape {
     background: #294c71;
     padding: 20px;
+}
+
+/*CAIXA*/
+.caixa {
+    background: #f3f3f3 url("../imagens/fundo-caixa.png");
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 #rodape {
