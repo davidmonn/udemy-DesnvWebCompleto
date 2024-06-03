@@ -148,6 +148,46 @@ h2 {
     margin-top: 5px;
 }
 
+/*FORMATAR MENUS LATERAIS*/
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url("../imagens/marcador.png") no-repeat left center;
+    color: #a1a1a1;
+    /*text-indent: 20px;*/
+    padding-left: 20px;
+}
+
+/*FORMATANDO FORMULARIOS*/
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit, input.reset {
+    width: 75px;
+    margin: 2px 0 0 0;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    display: inline; 
+}
+
 #rodape {
     width: 750px;
     margin: 0px auto;
