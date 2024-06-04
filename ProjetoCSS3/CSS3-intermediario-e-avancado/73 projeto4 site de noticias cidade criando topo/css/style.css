@@ -97,15 +97,14 @@ body.fotos #navegacao a#fotos,
     width: 270px;
     float: left;
     margin: 0px 0px 20px 195px;
-    background: #blue;
 }
 
-#tres-colunas #primario {
+/*#tres-colunas #primario {
     width: 270px;
-    background: blue;
     float: left;
     margin: 0px 0px 20px 195px;
-}
+    FORMATACAO PADRAO - MESMO DE PRIMARIO
+}*/
 
 #duas-colunas #primario {
     width: 555px;
@@ -118,7 +117,6 @@ body.fotos #navegacao a#fotos,
 
 #secundario {
     width: 270px;
-    background: green;
     float: left;
     margin: 0px 0px 20px 15px;
 }
@@ -186,6 +184,30 @@ input.submit, input.reset {
     background-color: #b10333;
     border: 2px solid #870529;
     display: inline; 
+}
+
+/*FORMATANDO IMAGENS*/
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8;
+    padding: 3px;
+}
+
+#primario .destaque h3 {
+    background-color: #b10333;
+    color: #fff;
+}
+
+#secundario .entrevista h3 {
+    background: #de003e;
+    color: #fff;
 }
 
 #rodape {
