@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url("../imagens/bg.png");
+    margin: 15px;
+}
+
+#container {
+    border: 1px solid red;
+    background: #ede9cc;
+}
+
+#topo {
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em; /* Usada a altura em (em), pois caso aumentemos o tamanho do texto, automaticamente a altura sera proporcional aos tamanhos dos textos*/
+    min-height: 250px; /* Para que ele nao reduza a ponto de nao aparecer a imagem */
+
+}
+
+#area-logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url("../imagens/topo-imagem-principal.png") no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+#area-menu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url("../imagens/topo-imagem-lateral.png") no-repeat;
+    width: 450px;
+    height: 250px;
+}
