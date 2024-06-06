@@ -12,8 +12,8 @@ body {
 }
 
 #container {
-    border: 1px solid red;
-    background: #ede9cc;
+    /*border: 1px solid red;*/
+    background: #ede9cc  url("../imagens/bg-container.png") repeat-y top;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
