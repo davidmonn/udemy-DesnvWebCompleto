@@ -121,3 +121,29 @@ ul#navegacao a:hover {
     height: 164px;
     float: right;
 }
+
+/*AREA DE CONTEUDOS*/
+
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url("../imagens/bg-area-principal.png") repeat-x top left;
+    padding: 15px 0px;
+}
+
+#area-lateral {
+    float: right;
+    width: 50%;
+    background: url("../imagens/bg-area-lateral.png") repeat-x top left;
+    padding: 20px 0px;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+#rodape {
+    clear: both;
+}
