@@ -21,12 +21,20 @@ h3 {
     text-align: center;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
 /* EFEITO PARALLAX*/
 
-.caixa1, .caixa2 {
-    border: 1px solid red;
+.caixa1, .caixa2, .caixa3, .caixa4 {
+    /*border: 1px solid red;*/ 
     height: 100%;
-    background-size: cover;
+    opacity: 0.7;
+    background-size: cover; /* USADO PARA A IMAGEM USAR TODO O ESPACAMENTO */
+    background-position: center; /* PARA CENTRALIZAR A IMAGEM AO REDUZIR OU AUMENTAR A TELA */
+    background-attachment: fixed;
+    position: relative;
 }
 
 .caixa1 {
@@ -35,4 +43,29 @@ h3 {
 
 .caixa2 {
     background-image: url("../imagens/imagem2.jpg");
+}
+
+.caixa3 {
+    background-image: url("../imagens/imagem3.jpg");
+}
+
+.caixa4 {
+    background-image: url("../imagens/imagem4.jpg");
+}
+
+.conteudo-titulo {
+    position: absolute; /* PARA FICAR MAIS FACIL CENTRALIZAR O CONTEUDO, PARA FAZER ISSO IREMOS PRECISAR MEXER EM NOSSAS CAIXAS E DEIXALAS COMO POSITION:RELATIVE; */
+    left: 0%;
+    top: 50%;
+    width: 100%; /*PARA QUE A LARGURA DO CONTEUDO TITULO, OCUPE 100% DA TELA*/
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px; /* ESPACAMENTO ENTRE O TEXTO */
+    text-transform: uppercase;
 }
